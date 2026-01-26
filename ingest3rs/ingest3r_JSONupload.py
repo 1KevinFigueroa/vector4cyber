@@ -10,9 +10,9 @@ from qdrant_client.http.models import Distance, VectorParams, PointStruct  # [we
 # ---------------- Configuration ---------------- #
 
 QDRANT_URL = "http://localhost:6333"   # Local Qdrant
-COLLECTION_NAME = "yandex_sslscan"
+COLLECTION_NAME = "<COLLECTION NAME>"     # Change this value to reflect Qdrant Collection
 VECTOR_SIZE = 384                       # Adjust to your embedding dimension
-DEFAULT_JSON_FILE = "yandex_sslscan.json"
+DEFAULT_JSON_FILE = "<CHANGE NAME>.json" # CHANGE THIS JSON FILE NAME BEGIN UPLOADED 
 
 
 # ---------------- Helper functions ---------------- #
