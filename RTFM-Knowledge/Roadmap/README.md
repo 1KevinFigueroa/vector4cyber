@@ -1,7 +1,6 @@
 
 # ROADMAP - SIGHT AND VISION TO "PROJECT CONTEXT-CLUES"
 
-
 ## Purpose:
 Modern cyber operations generate massive, high‑dimensional data, alerts, asset inventories, scan results, DNS and
 TLS telemetry, threat intel feeds, and more. Most teams still force this data into legacy, row‑and‑column patterns that were
