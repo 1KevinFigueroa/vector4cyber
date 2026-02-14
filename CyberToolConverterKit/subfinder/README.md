@@ -2,9 +2,16 @@
 
 Converting Subfinder results from a plain text file to a structured JSON format makes a significant difference when the data is being vectorized. Properly structured JSON with unique IDs is extremely useful for aggregating and correlating complex data in a vectorized workflow. High-quality, fast, and accurate data is critical for red team pipelines, security dashboards, and vector databases.
 
-Text file structure example:
+The problem with subfinder's output to a text file will be structured subdomains in a list. When the output in a JSON file 
+
+### Subfinder TEXT file structure output example ❌
+
 example.com
 
+### Subfinder JSON file structure output example ❌
+{"host":"aleksandr-kulishov.yandex.ru","input":"yandex.ru","source":"reconeer"}
+
+### A JSON structure option to vectorized ✅
 JSON file structure example:
 {"id": 1, "host": "example.com", "input": "example.com", "source": "subfinder"}
 
@@ -25,9 +32,3 @@ Typical use cases:
 - Ingesting subdomains into a **vector database** (Qdrant, Milvus, Weaviate, more coming soon etc.) for semantic search and correlation made easier
 - Powering recon dashboards or graphs (e.g., host → vuln → service relationships)
 - Joining subdomains with WHOIS, DNS, HTTP fingerprinting, or vulnerability scan data
-
----
-
-## Input Format
-
-The script expects a text file with **one subdomain per line**, for example:
