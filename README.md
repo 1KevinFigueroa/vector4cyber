@@ -1,7 +1,6 @@
 
 <p align="center">
-
-<img src="../main/RTFM-Knowledge/img/Vector4Cyber.png" align="center" width="300" height="300">
+<img src="../main/RTFM-Knowledge/img/Vector4Cyber.png" align="center" width="500" height="200">
 
 ## PROJECT CONTEXT-CLUES
 
