@@ -1,4 +1,4 @@
-![My Project Screenshot](../main/RTFM-Knowledge/img/Vector4Cyber.png)
+![My Project Screenshot]<img src="../RTFM-Knowledge/img/Vector4Cyber.png" width="200" height="100">
 
 # PROJECT CONTEXT-CLUES
 
