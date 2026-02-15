@@ -1,0 +1,283 @@
+[
+  {
+    "id": 1,
+    "host": "www.example.com",
+    "resolver": [
+      "1.1.1.1:53",
+      "8.8.8.8:53"
+    ],
+    "status_code": "NOERROR",
+    "timestamp": "2026-02-15T20:24:45.579847Z",
+    "source_tool": "dnsx",
+    "a": [
+      "93.184.216.34"
+    ],
+    "aaaa": [
+      "2606:2800:220:1:248:1893:25c8:1946"
+    ],
+    "cname": [],
+    "mx": [],
+    "ns": [],
+    "txt": [],
+    "soa": [],
+    "srv": [],
+    "ptr": [],
+    "caa": [],
+    "raw_response": {
+      "host": "www.example.com",
+      "resolver": [
+        "1.1.1.1:53",
+        "8.8.8.8:53"
+      ],
+      "a": [
+        "93.184.216.34"
+      ],
+      "aaaa": [
+        "2606:2800:220:1:248:1893:25c8:1946"
+      ],
+      "status_code": "NOERROR",
+      "timestamp": "2025-01-15T10:30:00Z"
+    }
+  },
+  {
+    "id": 2,
+    "host": "mail.example.com",
+    "resolver": [
+      "1.1.1.1:53"
+    ],
+    "status_code": "NOERROR",
+    "timestamp": "2026-02-15T20:24:45.579847Z",
+    "source_tool": "dnsx",
+    "a": [
+      "93.184.216.35"
+    ],
+    "aaaa": [],
+    "cname": [],
+    "mx": [
+      "mail.example.com",
+      "mail2.example.com"
+    ],
+    "ns": [],
+    "txt": [
+      "v=spf1 include:_spf.example.com ~all"
+    ],
+    "soa": [],
+    "srv": [],
+    "ptr": [],
+    "caa": [],
+    "raw_response": {
+      "host": "mail.example.com",
+      "resolver": [
+        "1.1.1.1:53"
+      ],
+      "a": [
+        "93.184.216.35"
+      ],
+      "mx": [
+        "mail.example.com",
+        "mail2.example.com"
+      ],
+      "txt": [
+        "v=spf1 include:_spf.example.com ~all"
+      ],
+      "status_code": "NOERROR",
+      "timestamp": "2025-01-15T10:30:00Z"
+    }
+  },
+  {
+    "id": 3,
+    "host": "blog.example.com",
+    "resolver": [
+      "8.8.8.8:53"
+    ],
+    "status_code": "NOERROR",
+    "timestamp": "2026-02-15T20:24:45.579847Z",
+    "source_tool": "dnsx",
+    "a": [],
+    "aaaa": [],
+    "cname": [
+      "blog.herokuapp.com"
+    ],
+    "mx": [],
+    "ns": [],
+    "txt": [],
+    "soa": [],
+    "srv": [],
+    "ptr": [],
+    "caa": [],
+    "raw_response": {
+      "host": "blog.example.com",
+      "resolver": [
+        "8.8.8.8:53"
+      ],
+      "cname": [
+        "blog.herokuapp.com"
+      ],
+      "status_code": "NOERROR",
+      "timestamp": "2025-01-15T10:30:01Z"
+    }
+  },
+  {
+    "id": 4,
+    "host": "ns1.example.com",
+    "resolver": [
+      "1.1.1.1:53"
+    ],
+    "status_code": "NOERROR",
+    "timestamp": "2026-02-15T20:24:45.579847Z",
+    "source_tool": "dnsx",
+    "a": [
+      "93.184.216.36"
+    ],
+    "aaaa": [],
+    "cname": [],
+    "mx": [],
+    "ns": [
+      "ns1.example.com",
+      "ns2.example.com"
+    ],
+    "txt": [],
+    "soa": [
+      {
+        "ns": "ns1.example.com",
+        "mailbox": "admin.example.com",
+        "serial": 2025011501
+      }
+    ],
+    "srv": [],
+    "ptr": [],
+    "caa": [],
+    "raw_response": {
+      "host": "ns1.example.com",
+      "resolver": [
+        "1.1.1.1:53"
+      ],
+      "a": [
+        "93.184.216.36"
+      ],
+      "ns": [
+        "ns1.example.com",
+        "ns2.example.com"
+      ],
+      "soa": [
+        {
+          "ns": "ns1.example.com",
+          "mailbox": "admin.example.com",
+          "serial": 2025011501
+        }
+      ],
+      "status_code": "NOERROR",
+      "timestamp": "2025-01-15T10:30:01Z"
+    }
+  },
+  {
+    "id": 5,
+    "host": "_dmarc.example.com",
+    "resolver": [
+      "8.8.8.8:53"
+    ],
+    "status_code": "NOERROR",
+    "timestamp": "2026-02-15T20:24:45.579847Z",
+    "source_tool": "dnsx",
+    "a": [],
+    "aaaa": [],
+    "cname": [],
+    "mx": [],
+    "ns": [],
+    "txt": [
+      "v=DMARC1; p=quarantine; rua=mailto:dmarc@example.com"
+    ],
+    "soa": [],
+    "srv": [],
+    "ptr": [],
+    "caa": [],
+    "raw_response": {
+      "host": "_dmarc.example.com",
+      "resolver": [
+        "8.8.8.8:53"
+      ],
+      "txt": [
+        "v=DMARC1; p=quarantine; rua=mailto:dmarc@example.com"
+      ],
+      "status_code": "NOERROR",
+      "timestamp": "2025-01-15T10:30:02Z"
+    }
+  },
+  {
+    "id": 6,
+    "host": "nonexistent.example.com",
+    "resolver": [
+      "1.1.1.1:53"
+    ],
+    "status_code": "NXDOMAIN",
+    "timestamp": "2026-02-15T20:24:45.579847Z",
+    "source_tool": "dnsx",
+    "a": [],
+    "aaaa": [],
+    "cname": [],
+    "mx": [],
+    "ns": [],
+    "txt": [],
+    "soa": [],
+    "srv": [],
+    "ptr": [],
+    "caa": [],
+    "raw_response": {
+      "host": "nonexistent.example.com",
+      "resolver": [
+        "1.1.1.1:53"
+      ],
+      "status_code": "NXDOMAIN",
+      "timestamp": "2025-01-15T10:30:02Z"
+    }
+  },
+  {
+    "id": 7,
+    "host": "api.example.com",
+    "resolver": [
+      "1.1.1.1:53",
+      "8.8.8.8:53"
+    ],
+    "status_code": "NOERROR",
+    "timestamp": "2026-02-15T20:24:45.579847Z",
+    "source_tool": "dnsx",
+    "a": [
+      "93.184.216.37",
+      "93.184.216.38"
+    ],
+    "aaaa": [
+      "2606:2800:220:1:248:1893:25c8:1947"
+    ],
+    "cname": [],
+    "mx": [],
+    "ns": [],
+    "txt": [
+      "v=spf1 -all",
+      "google-site-verification=abc123"
+    ],
+    "soa": [],
+    "srv": [],
+    "ptr": [],
+    "caa": [],
+    "raw_response": {
+      "host": "api.example.com",
+      "resolver": [
+        "1.1.1.1:53",
+        "8.8.8.8:53"
+      ],
+      "a": [
+        "93.184.216.37",
+        "93.184.216.38"
+      ],
+      "aaaa": [
+        "2606:2800:220:1:248:1893:25c8:1947"
+      ],
+      "txt": [
+        "v=spf1 -all",
+        "google-site-verification=abc123"
+      ],
+      "status_code": "NOERROR",
+      "timestamp": "2025-01-15T10:30:03Z"
+    }
+  }
+]
