@@ -1,6 +1,6 @@
 
 <p align="center">
-<img src="../main/RTFM-Knowledge/img/Vector4Cyber.png" align="center" width="400" height="300">
+<img src="../main/RTFM-Knowledge/img/Vector4Cyber.png" align="center" width="400" height="250">
 
 <h2 style="text-align: center;">PROJECT CONTEXT-CLUES</h2>
 
