@@ -2,7 +2,7 @@
 # ROADMAP - SIGHT AND VISION TO "PROJECT CONTEXT-CLUES"
 
 <p align="center">
-<img src="../img/Roadmap.png">
+<img src="../img/Development-Roadmap.drawio.png">
 
 ## Purpose:
 Modern cyber operations generate massive, high‑dimensional data, alerts, asset inventories, scan results, DNS and
