@@ -3,7 +3,7 @@
 <img src="../main/RTFM-Knowledge/img/Vector4Cyber.png" align="center" width="400" height="250">
 
 <p align="center">
-  <a href="https://github.com/1KevinFigueroa/vector4cyber/README.md">
+  <a href="https://github.com/1KevinFigueroa/vector4cyber/tree/main/RTFM-Knowledge">
     <img src="https://img.shields.io/github/actions/workflow/status/1KevinFigueroa/vector4cyber/ci.yml" alt="Build Status">
   </a>
   <a href="../RTFM-Knowledge/README.md">
