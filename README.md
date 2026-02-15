@@ -1,4 +1,5 @@
-![My Project Screenshot](../main/RTFM-Knowledge/img/Vector4Cyber.png){: width=50% }
+![My Project Screenshot]<img src="../main/RTFM-Knowledge/img/Vector4Cyber.png" width="400" height="300">
+
 
 # PROJECT CONTEXT-CLUES
 
