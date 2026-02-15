@@ -7,7 +7,7 @@
   </a>
 </p>
   <a href="Program Logo">
-    <img src="https://github.com/1KevinFigueroa/vector4cyber/blob/main/RTFM-Knowledge/img/appLogos/Amass.png" alt="Program Logo">
+    <img src="https://github.com/1KevinFigueroa/vector4cyber/blob/main/RTFM-Knowledge/img/appLogos/Amass.png" width=50% alt="Program Logo">
   </a>
 <h2 style="text-align: center;">Converter AMass  → JSON for vectorization</h2>
 
