@@ -1,3 +1,28 @@
+<table align="center">
+  <tr>
+    <td align="center" width="50%">
+      <a href=" ">
+        <img src="https://img.shields.io/badge/Python%20WHOIS-active-00ff00?style=flat&logo=simple-icons&logoColor=white" alt="File Type" width="100">
+      </a>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://github.com/1KevinFigueroa/vector4cyber/blob/main/LICENSE">
+        <img src="https://img.shields.io/badge/License-Apache%202.0-brightgreen?labelColor=gray&logo=github" alt="Apache 2.0 License">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <a href="">
+        <img src="https://github.com/1KevinFigueroa/vector4cyber/blob/main/RTFM-Knowledge/img/appLogos/whois.png" width="150" alt="Amass Logo">
+      </a>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://github.com/1KevinFigueroa/vector4cyber/blob/main/RTFM-Knowledge/img/Vector4Cyber_extraSmalllogo.png" width="300" alt="Program Logo">
+    </td>
+  </tr>
+</table>
+
 # Convert Python WHOIS query → JSON file vectorized
 
 Converting Python WHOIS results from a plain text file to a structured JSON format makes a significant difference when the data is being vectorized. Properly structured JSON with unique IDs is extremely useful for aggregating and correlating complex data in a vectorized workflow. High-quality, fast, and accurate data is critical for red team pipelines, security dashboards, and vector databases.
