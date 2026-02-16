@@ -2,7 +2,7 @@
   <tr>
     <td align="center" width="50%">
       <a href="https://github.com/1KevinFigueroa/vector4cyber/tree/main">
-        <img src="https://img.shields.io/badge/File%20Type-10000000?style=flat&logo=github&logoColor=black" alt="File Type" width="100">
+        <img src="https://img.shields.io/badge/File%20Type-?style=flat&logo=github&logoColor=black" alt="File Type" width="100">
       </a>
     </td>
     <td align="center" width="50%">
