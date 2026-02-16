@@ -2,7 +2,7 @@
   <tr>
     <td align="center" width="50%">
       <a href=" ">
-        <img src="https://img.shields.io/badge/Python%20WHOIS-active-00ff00?style=flat&logo=simple-icons&logoColor=white" alt="File Type" width="100">
+        <img src="https://img.shields.io/badge/Python%20WHOIS-active-%23FF5F1F?style=flat&logo=simple-icons&logoColor=white" alt="File Type" width="100">
       </a>
     </td>
     <td align="center" width="50%">
