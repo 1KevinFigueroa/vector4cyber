@@ -1,6 +1,6 @@
-# Subdomain Text → JSON Converter
+# Converter  Plain Text → JSON file vectorized
 
-Convert subdomains from a plain text file into structured JSON with IDs for use in pipelines, dashboards, or vector databases.
+Convert a plain text file into structured JSON with IDs for use in pipelines, dashboards, or vector databases.
 
 ---
 
