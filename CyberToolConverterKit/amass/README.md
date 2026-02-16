@@ -1,23 +1,23 @@
 <table align="center">
   <tr>
-    <td align="center" width="100%">
+    <td align="center" width="50%">
       <a href="https://owasp.org/projects/">
         <img src="https://img.shields.io/badge/OWASP-Flagship-00589d?logo=owasp&logoColor=white" alt="OWASP Flagship" width="100">
       </a>
     </td>
-    <td align="center" width="100%">
+    <td align="center" width="50%">
       <a href="https://img.shields.io/github/license/1KevinFigueroa/vector4cyber/blob/main/LICENSE">
         <img src="https://img.shields.io/github/license/1KevinFigueroa/vector4cyber" alt="License" width="100">
       </a>
     </td>
   </tr>
   <tr>
-    <td align="center" width="100%">
+    <td align="center" width="50%">
       <a href="">
         <img src="https://github.com/1KevinFigueroa/vector4cyber/blob/main/RTFM-Knowledge/img/appLogos/Amass.png" width="300" alt="Amass Logo">
       </a>
     </td>
-    <td align="center" width="100%">
+    <td align="center" width="50%">
       <img src="https://github.com/1KevinFigueroa/vector4cyber/blob/main/RTFM-Knowledge/img/Vector4Cyber_extraSmalllogo.png" width="300" alt="Program Logo">
     </td>
   </tr>
