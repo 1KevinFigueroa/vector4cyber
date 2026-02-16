@@ -2,7 +2,7 @@
   <tr>
     <td align="center" width="50%">
       <a href=" ">
-        <img src="https://badgers.space/badge/label-text-%23color?logo=DIRB" alt="DIRB open-source tool" width="100">
+        <img src=" https://img.shields.io/badge/any_text-you_like-blue" alt="DIRB open-source tool" width="100">
       </a>
     </td>
     <td align="center" width="50%">
