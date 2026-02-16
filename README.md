@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/1KevinFigueroa/vector4cyber/tree/main/RTFM-Knowledge">
-    <img src="https://img.shields.io/badge/Build%20repo&workflow-00b8d4" alt="Build Status">
+    <img src="https://img.shields.io/badge/Build-repo%20workflow-00b8d4" alt="Build Status">
   </a>
   <a href="https://github.com/1KevinFigueroa/vector4cyber/tree/main/RTFM-Knowledge">
     <img src="https://img.shields.io/badge/docs-latest-blue.svg" alt="Documentation">
