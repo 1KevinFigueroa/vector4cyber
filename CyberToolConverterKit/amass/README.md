@@ -21,12 +21,10 @@
       <img src="https://github.com/1KevinFigueroa/vector4cyber/blob/main/RTFM-Knowledge/img/Vector4Cyber_extraSmalllogo.png" width="300" alt="Program Logo">
     </td>
   </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <h2>Convert AMass results → JSON file vectorized</h2>
-    </td>
-  </tr>
 </table>
+
+# Convert AMass results → JSON file vectorized
+
 Converting Amass results from a plain text file to a structured JSON format makes a significant difference when the data is being vectorized. Properly structured JSON with unique IDs is extremely useful for aggregating and correlating complex data in a vectorized workflow. High-quality, fast, and accurate data is critical for red team pipelines, security dashboards, and vector databases.
 
 The problem with subfinder's output to a text file will be structured subdomains in a list. When the output in a JSON file 
