@@ -1,28 +1,28 @@
-<table border="0" align="center">
+<table border="0" align="center" style="width: 100%; table-layout: fixed;">
   <tr>
-    <td align="center">
+    <td align="center" style="padding: 10px;">
       <a href="https://owasp.org/projects/">
-        <img src="https://img.shields.io/badge/OWASP-Flagship-00589d?logo=owasp&logoColor=white" alt="OWASP Flagship">
+        <img src="https://img.shields.io/badge/OWASP-Flagship-00589d?logo=owasp&logoColor=white" alt="OWASP Flagship" style="width: 40%; height: auto;">
       </a>
     </td>
-    <td align="center">
+    <td align="center" style="padding: 10px;">
       <a href="LICENSE">
-        <img src="https://img.shields.io/github/license/1KevinFigueroa/vector4cyber/blob/main/LICENSE" alt="License">
+        <img src="https://img.shields.io/github/license/1KevinFigueroa/vector4cyber/blob/main/LICENSE" alt="License" style="width: 40%; height: auto;">
       </a>
     </td>
   </tr>
   <tr>
-    <td align="center">
+    <td align="center" style="padding: 10px;">
       <a href="">
-        <img src="https://github.com/1KevinFigueroa/vector4cyber/blob/main/RTFM-Knowledge/img/appLogos/Amass.png" width="20%" alt="Amass Logo">
+        <img src="https://github.com/1KevinFigueroa/vector4cyber/blob/main/RTFM-Knowledge/img/appLogos/Amass.png" style="width: 40%; height: auto;" alt="Amass Logo">
       </a>
     </td>
-    <td align="center">
-      <img src="https://github.com/1KevinFigueroa/vector4cyber/blob/main/RTFM-Knowledge/img/Vector4Cyber_extraSmalllogo.png" width="25%" alt="Program Logo">
+    <td align="center" style="padding: 10px;">
+      <img src="https://github.com/1KevinFigueroa/vector4cyber/blob/main/RTFM-Knowledge/img/Vector4Cyber_extraSmalllogo.png" style="width: 40%; height: auto;" alt="Program Logo">
     </td>
   </tr>
   <tr>
-    <td colspan="2" align="center">
+    <td colspan="2" align="center" style="padding: 20px;">
       <h2>Convert AMass results → JSON file vectorized</h2>
     </td>
   </tr>
