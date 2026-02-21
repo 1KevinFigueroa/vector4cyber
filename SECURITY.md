@@ -8,11 +8,8 @@ currently being supported with security updates.
 | Version | Supported                                   | 
 | ------- | ------------------------------------------- |
 | 0.1.x   | :white_check_mark: Cyber Tool Converter Kit |
-| ------- | ------------------------------------------- |
 | 1.0.x   | :white_check_mark: Cyber Tool Converter Kit |
-| ------- | ------------------------------------------- |
 | 0.1.x   | :white_check_mark: Vector Ingest3r          |
-| ------- | ------------------------------------------- |
 | 1.0.x   | :white_check_mark: Vector Ingest3r          |
 | ------- | ------------------------------------------- |
 
