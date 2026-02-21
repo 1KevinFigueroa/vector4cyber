@@ -25,8 +25,10 @@ TLS telemetry, threat intel feeds, and more;yet most teams still force this data
 cyber operations data using Vector Databases (VectorDBs) as the core of a next‑generation threat intelligence and recon platform.
 
 How to transform heterogeneous cyber data (from tools such as Nmap, Amass, sslscan, passive DNS, and OSINT
-sources) into embeddings that capture semantic relationships—between assets, indicators, behaviors, and attack paths—instead of just static fields. Once vectorized, Qdrant enables fast similarity search, context‑aware pivoting (e.g., “find assets that
-behave like this compromised host”), and automated clustering for campaign or infrastructure grouping. On top of that, we will
-show how to leverage Qdrant’s filtering and metadata capabilities to combine classic threat hunting (by IP, ASN, tags, exposure) with vector search workflows.
+sources) into embeddings that capture semantic relationships—between assets, indicators, behaviors, and attack paths—instead of just static fields. Once vectorized, Qdrant enables fast similarity search, context‑aware pivoting (e.g., “find assets that behave like this compromised host”), and automated clustering for campaign or infrastructure grouping. On top of that, we will show how to leverage Qdrant’s filtering and metadata capabilities to combine classic threat hunting (by IP, ASN, tags, exposure) with vector search workflows.
 
-More to come...
+This repository will include live examples of: building a small open‑source CyberOps vectorized data pipeline,
+mapping external and internal attack surface postures into vectors, and visualizing neighborhoods of risky assets using
+dimensionality reduction and graph‑style views to support recon and threat modeling around Qdrant and other vector
+databases. Users will leave with concrete patterns, schema ideas, and code‑level concepts they can immediately apply to
+replace brittle dashboards and ad‑hoc spreadsheets with scalable, AI‑ready, vector‑driven threat intel backbone.
