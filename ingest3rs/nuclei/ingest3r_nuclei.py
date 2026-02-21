@@ -6,11 +6,11 @@ Uploads Nuclei vulnerability scan results to Qdrant vector database with automat
 correlation to existing host and subdomain collections.
 
 Usage:
-    python ingest3r_nuclei.py <input_jsonl> [collection_name]
+    python ingest3r_nuclei.py <input_json> [collection_name]
 
 Arguments:
-    input_jsonl      Path to nuclei JSONL output file (from -jsonl flag)
-    collection_name  Optional collection name (default: nuclei_results)
+    input_json        Path to nuclei JSON output file (from -o or -json-export flag)
+    collection_name   Optional collection name (default: nuclei_results)
 
 Features:
 - Automatic correlation with dnsx/nmap/whois collections
@@ -46,7 +46,7 @@ def parse_args():
     parser = argparse.ArgumentParser(
         description="Ingest nuclei vulnerability scan results into Qdrant"
     )
-    parser.add_argument("input_file", help="Path to nuclei JSONL output file")
+    parser.add_argument("input_file", help="Path to nuclei JSON output file")
     parser.add_argument(
         "collection_name",
         nargs="?",
@@ -247,7 +247,7 @@ class NucleiIngestor:
         return vector
 
     def _parse_jsonl(self, file_path: str) -> List[Dict[str, Any]]:
-        """Parse nuclei JSONL output file."""
+        """Parse nuclei JSON output file."""
         results = []
         with open(file_path, "r", encoding="utf-8") as f:
             for line_num, line in enumerate(f, 1):

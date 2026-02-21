@@ -33,47 +33,50 @@ Without sentence-transformers, the ingestor will use simple hash-based embedding
 ### Basic Usage
 
 ```bash
-python ingest3r_nuclei.py nuclei_results.jsonl
+python ingest3r_nuclei.py nuclei_results.json
 ```
 
 ### With Custom Collection Name
 
 ```bash
-python ingest3r_nuclei.py nuclei_results.jsonl my_vulnerabilities
+python ingest3r_nuclei.py nuclei_results.json my_vulnerabilities
 ```
 
 ### With Custom Qdrant Connection
 
 ```bash
-python ingest3r_nuclei.py nuclei_results.jsonl --host 192.168.1.100 --port 6333
+python ingest3r_nuclei.py nuclei_results.json --host 192.168.1.100 --port 6333
 ```
 
 ### Skip Correlation (Upload Only)
 
 ```bash
-python ingest3r_nuclei.py nuclei_results.jsonl --skip-correlation
+python ingest3r_nuclei.py nuclei_results.json --skip-correlation
 ```
 
 ### Omit Raw Request/Response (Save Space)
 
 ```bash
-python ingest3r_nuclei.py nuclei_results.jsonl --omit-raw
+python ingest3r_nuclei.py nuclei_results.json --omit-raw
 ```
 
 ### Adjust Batch Size
 
 ```bash
-python ingest3r_nuclei.py nuclei_results.jsonl --batch-size 200
+python ingest3r_nuclei.py nuclei_results.json --batch-size 200
 ```
 
 ## Complete Workflow Example
 
 ```bash
-# Step 1: Run nuclei scan with JSONL output
-nuclei -l targets.txt -jsonl -o nuclei_results.jsonl
+# Step 1: Run nuclei scan with JSON output
+nuclei -l targets.txt -o nuclei_results.json
+
+# Or use -json-export for explicit JSON output
+nuclei -l targets.txt -json-export nuclei_results.json
 
 # Step 2: Ingest results into Qdrant
-python ingest3r_nuclei.py nuclei_results.jsonl
+python ingest3r_nuclei.py nuclei_results.json
 
 # Output:
 # [INFO] Starting nuclei ingestor
@@ -101,13 +104,17 @@ python ingest3r_nuclei.py nuclei_results.jsonl
 
 ## Nuclei Output Format
 
-The ingestor expects Nuclei JSONL output generated with the `-jsonl` flag:
+The ingestor expects Nuclei JSON output. Use either:
 
 ```bash
-nuclei -u https://example.com -jsonl -o results.jsonl
+# Default JSON output
+nuclei -u https://example.com -o results.json
+
+# Or explicit JSON export
+nuclei -u https://example.com -json-export results.json
 ```
 
-Each line in the JSONL file is a separate JSON object containing:
+Each line in the JSON file is a separate JSON object containing:
 
 ```json
 {
@@ -301,7 +308,7 @@ When correlation succeeds, the vulnerability record includes:
 
 | Argument | Description | Default |
 |----------|-------------|---------|
-| `input_file` | Path to nuclei JSONL file | (required) |
+| `input_file` | Path to nuclei JSON file | (required) |
 | `collection_name` | Qdrant collection name | `nuclei_results` |
 | `--host` | Qdrant server host | `localhost` |
 | `--port` | Qdrant server port | `6333` |
@@ -345,7 +352,7 @@ When correlation succeeds, the vulnerability record includes:
 ## Architecture
 
 ```
-nuclei_results.jsonl
+nuclei_results.json
         │
         ▼
 ┌─────────────────┐
