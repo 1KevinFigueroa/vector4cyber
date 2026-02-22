@@ -18,7 +18,7 @@
 </p>
 </p>
 
-<h2 style="text-align: center;">PROJECT CONTEXT-CLUES</h2>
+<h2 style="text-align: center;">PROJECT CONTEXT-CLUES - with Pinecone</h2>
 
 Modern cyber operations generate massive, high‑dimensional data, alerts, asset inventories, scan results, DNS and
 TLS telemetry, threat intel feeds, and more;yet most teams still force this data into legacy, row‑and‑column patterns that were never designed for AI‑driven analysis. This is my practical approach to modernize, vectorize, and visualize your
