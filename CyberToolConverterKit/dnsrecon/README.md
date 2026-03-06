@@ -35,38 +35,11 @@ The problem with subfinder's output to a text file will be structured subdomains
 convert_dnsrecon.py [-h] input_csv output_json
 
 ### DNSRecon CSV file structure output example ❌
-MX, , ,,,
-MX, , ,,,
-A,  , ,,,
-A, , ,,,
-AAAA, , ,,,
-AAAA, , ,,,
-TXT, ,,,,'dropbox-domain-verification= '
+MX, , ,,, MX, , ,,, A, , ,,, A, , ,,, AAAA, , ,,, AAAA, , ,,, TXT, ,,,,'dropbox-domain-verification= '
 
 ### A JSON structure option to vectorized ✅
 JSON file structure example:
-  "scan_info": {
-    "input_file": "dnsrecon.csv",
-    "total_records": 39,
-    "headers": [
-      "Type",
-      "Name",
-      "Address",
-      "Target",
-      "Port",
-      "String"
-    ]
-  },
-  "records": [
-    {
-      "id": 1,
-      "type": "SOA",
-      "name": "alina.ns.cloudflare.com",
-      "address": " ",
-      "target": "",
-      "port": "",
-      "string": ""
-    },
+"scan_info": { "input_file": "dnsrecon.csv", "total_records": 39, "headers": [ "Type", "Name", "Address", "Target", "Port", "String" ] }, "records": [ { "id": 1, "type": "SOA", "name": "alina.ns.cloudflare.com", "address": " ", "target": "", "port": "", "string": "" },
 
 With a plain text file, two important pieces of information are missing: the original input and the source from which the data was obtained. From a cybersecurity perspective, these small but crucial data points are essential for traceability, context, and confident decision-making during analysis.
 
