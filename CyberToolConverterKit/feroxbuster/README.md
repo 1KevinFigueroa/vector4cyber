@@ -27,7 +27,7 @@
 
 # Converter Feroxbuster results  → JSON Converter vectorized
 
-Converting DNSRecon results from a plain text file to a structured JSON format makes a significant difference when the data is being vectorized. Properly structured JSON with unique IDs is extremely useful for aggregating and correlating complex data in a vectorized workflow. High-quality, fast, and accurate data is critical for red team pipelines, security dashboards, and vector databases.
+Converting Feroxbuster results from a plain text file to a structured JSON format makes a significant difference when the data is being vectorized. Properly structured JSON with unique IDs is extremely useful for aggregating and correlating complex data in a vectorized workflow. High-quality, fast, and accurate data is critical for red team pipelines, security dashboards, and vector databases.
 
 The problem with subfinder's output to a text file will be structured subdomains in a list. When the output in a JSON file.
 
@@ -82,6 +82,6 @@ In the world of vector databases—specifically Qdrant, Milvus, and Weaviate, co
 
 Typical use cases:
 
-- Ingesting subdomains into a **vector database** and allow a user to select vector sizing (Qdrant, Milvus, Weaviate, more coming soon etc.) for semantic search and correlation made easier
+- Ingesting into a **vector database** and allow a user to select vector sizing (Qdrant, Milvus, Weaviate, more coming soon etc.) for semantic search and correlation made easier
 - Powering recon dashboards or graphs (e.g., host → vuln → service relationships)
 - Joining subdomains with WHOIS, DNS, HTTP fingerprinting, or vulnerability scan data
