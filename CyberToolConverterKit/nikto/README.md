@@ -26,16 +26,18 @@
 
 # Converter Nikto JSON file  → JSON file to vectorized
 
-Converting Subfinder results from a plain text file to a structured JSON format makes a significant difference when the data is being vectorized. Properly structured JSON with unique IDs is extremely useful for aggregating and correlating complex data in a vectorized workflow. High-quality, fast, and accurate data is critical for red team pipelines, security dashboards, and vector databases.
+Converting Nikto results from a plain text file to a structured JSON format makes a significant difference when the data is being vectorized. Properly structured JSON with unique IDs is extremely useful for aggregating and correlating complex data in a vectorized workflow. High-quality, fast, and accurate data is critical for red team pipelines, security dashboards, and vector databases.
 
-The problem with subfinder's output to a text file will be structured subdomains in a list. When the output in a JSON file 
+The problem with nikto's output to a text file will be structured subdomains in a list. When the output in a JSON file 
 
+### Usage:
+convert_nikto.py [-h] [-o OUTPUT] input
 
 ### Nikto JSON file structure output example ❌
 
 [
   {
-    "url": "https://23andme.com",
+    "url": " ",
     "detected": true,
     "firewall": "Cloudflare",
     "manufacturer": "Cloudflare Inc."
@@ -58,7 +60,7 @@ JSON file structure example:
       "target": "unknown",
       "url": "",
       "method": "GET",
-      "message": "/: Retrieved via header: 1.1 8dd4c7f1d7b55b5ac0fc5b7f8532cf32.cloudfront.net (CloudFront).",
+      "message": "/: Retrieved via header: 1.1 *******d7b55b5ac0fc5b7f8532cf32.cloudfront.net (CloudFront).",
       "osvdb": "",
       "id_nikto": "999986",
       "risk": "medium",
