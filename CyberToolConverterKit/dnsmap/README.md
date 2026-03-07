@@ -61,7 +61,7 @@ JSON file structure example:
     {
       "id": 1,
       "type": "SOA",
-      "name": "alina.ns.cloudflare.com",
+      "name": "*.ns.cloudflare.com",
       "address": "172.64.32.61",
       "target": "",
       "port": "",
